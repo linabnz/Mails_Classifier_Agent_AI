@@ -17,9 +17,6 @@ Classification_mails_agents_IA/
 │   ├── csv_writer.py          # Écriture des résultats en CSV (mode alternatif)
 │   ├── models.py              # Modèles Pydantic
 │   └── main.py                # API FastAPI (point d'entrée)
-├── credentials/               # ⚠️ Ne pas push (dans .gitignore)
-│   ├── credentials.json       # Credentials OAuth2 Gmail
-│   └── service_account.json   # Compte de service Google Sheets
 ├── comparaison.py             # Script d'évaluation vs vérité terrain
 ├── ground_truth.csv           # Vérité terrain pour évaluation
 ├── token.pickle               # Token Gmail (généré automatiquement)
